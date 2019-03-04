@@ -1,0 +1,32 @@
+.head {
+  display: flex;
+  justify-content: center;
+  // margin: 10px;
+  border-bottom: 1px solid $light-gray;
+}
+
+.head a {
+  list-style: none;
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+  transition: ease 0.6s;
+}
+
+.head a:last-of-type {
+  margin-top: 11px;
+  text-decoration: underline;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.head a:last-of-type:hover {
+  background: none;
+  text-decoration: underline;
+}
+
+.head a:hover {
+  text-decoration: none;
+  background: $light-gray;
+  border-radius: 3px;
+}
